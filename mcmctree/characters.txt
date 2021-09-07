@@ -1,0 +1,27 @@
+	reproduction	sociality	ploidy
+Acromyrmex_echinatior	Sexual	Eusocial	Haplodiploid
+    Apis_florea	Arrhenotoky	Eusocial	Haplodiploid
+    Apis_mellifera	Arrhenotoky	Eusocial	Haplodiploid
+    Athalia_rosae	Arrhenotoky	Solitary	Haplodiploid
+    Atta_cephalotes	Sexual	Eusocial	Haplodiploid
+    Bombus_impatiens	Arrhenotoky	Eusocial	Haplodiploid
+    Bombus_terrestris	Arrhenotoky	Eusocial	Haplodiploid
+    Camponotus_floridanus	Arrhenotoky	Eusocial	Haplodiploid
+    Cardiocondyla_obscurior	Arrhenotoky	Eusocial	Haplodiploid
+    Cephus_cinctus	Arrhenotoky	Solitary	Haplodiploid
+    Copidosoma_floridanum	Arrhenotoky	Eusocial	Haplodiploid
+    Dinocampus_coccinellae	Thelytoky	Solitary	Haplodiploid
+    Dufourea_novaeangliae	Arrhenotoky	Solitary	Haplodiploid
+    Eufriesea_mexicana	Arrhenotoky	FacultativeSociality	Haplodiploid
+    Habropoda_laboriosa	Arrhenotoky	Solitary	Haplodiploid
+    Harpegnathos_saltator	Arrhenotoky	Eusocial	Haplodiploid
+    Lasioglossum_albipes	Arrhenotoky	Eusocial	Haplodiploid
+    Linepithema_humile	Arrhenotoky	Eusocial	Haplodiploid
+    Megachile_rotundata	Arrhenotoky	Solitary	Haplodiploid
+    Melipona_quadrifasciata	Arrhenotoky	Eusocial	Haplodiploid
+    Nasonia_vitripennis	Arrhenotoky	Solitary	Haplodiploid
+    Orussus_abietinus	Arrhenotoky	Solitary	Haplodiploid
+Outgroup_Zootermopsis_nevadensis	Sexual	Eusocial	Diploid
+    Pogonomyrmex_barbatus	Arrhenotoky	Eusocial	Haplodiploid
+    Solenopsis_invicta	Arrhenotoky	Eusocial	Haplodiploid
+    Trichogramma_pretiosum	Thelytoky	Solitary	Haplodiploid

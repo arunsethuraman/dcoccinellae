@@ -1,4 +1,4 @@
-#All ab initio AUGUSTUS gene prediction, and BUSCO analyses were performed on the Galaxy Project
+#All ab initio AUGUSTUS gene prediction, QUAST-LG and BUSCO analyses were performed on the Galaxy Project
 #The pipeline history used for running this can be accessed here:
 https://usegalaxy.org/u/rykamae/h/dcoccinellaegenome
 

@@ -2,6 +2,16 @@
 #The pipeline history used for running this can be accessed here:
 https://usegalaxy.org/u/rykamae/h/dcoccinellaegenome
 
+#Homology-mediated annotation using GeMoMa and mmseq 
+#Downloaded annotations and FASTA files for Macroplitis demolitor and Aphidius ervi from InsectBase 2.0 and put them into a folder called References
+#$DCOCC = path to the location of the HiRise assembly (final_assembly.fasta)
+
+#Thereon, ran GeMoMa using their run.sh script
+./run.sh mmseqs $DCOCC/HiRise/final_assembly.fasta $DCOCC/References/Microplitis_demolitor_genomic.gff3 $DCOCC/References/Microplitis_demolitor_genomic.fasta $DCOCC/mdannoresults
+./run.sh mmseqs $DCOCC/HiRise/final_assembly.fasta $DCOCC/References/Aphidius_ervi_genomic.gff3 $DCOCC/References/Aphidius_ervi_genomic.fasta $DCOCC/aeannoresults
+#Combine the annotations
+java -jar GeMoMa-1.7.1.jar CLI GAF g=$DCOCC/aeannoresults/final_annotation.gff g=$DCOCC/mdannoresults/final_annotation.gff outdir=$DCOCC/final_out
+#This produces the final annotation in GFF format
 
 #Obtain all protein coding sequences, aligned with Dcoccinellae proteins and the i5K data, and construct multiple sequence alignments using pasta
 #allgenes has names of all the genes

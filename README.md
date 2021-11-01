@@ -21,3 +21,5 @@ results_hym_desc.xlsx - XLSX file containing results of gene family evolution, e
 UNI246_report.html - Scaffolding report provided by Dovetail Genomics
 
 QUASTLG_Dcocc_report.pdf - Contains the QUAST-LG assembly quality report generated from running QUAST-LG v.5.0.2 on the final assembly file
+
+Dcocc_gemoma_final_v1.gff - GFF annotation track from homology-mediated gene prediction

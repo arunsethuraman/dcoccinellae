@@ -3,7 +3,9 @@
 https://usegalaxy.org/u/rykamae/h/dcoccinellaegenome
 
 #Homology-mediated annotation using GeMoMa and mmseq 
-#Downloaded annotations and FASTA files for Macroplitis demolitor and Aphidius ervi from InsectBase 2.0 and put them into a folder called References
+#Downloaded annotations and FASTA files for Microplitis demolitor and Aphidius ervi from InsectBase 2.0 and put them into a folder called References
+#Aphidius ervi - http://v2.insect-genome.com/Organism/74
+#Microplitis demolitor - http://v2.insect-genome.com/Organism/552
 #$DCOCC = path to the location of the HiRise assembly (final_assembly.fasta)
 
 #Thereon, ran GeMoMa using their run.sh script

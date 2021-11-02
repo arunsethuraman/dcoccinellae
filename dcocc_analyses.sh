@@ -15,7 +15,7 @@ https://usegalaxy.org/u/rykamae/h/dcoccinellaegenome
 java -jar GeMoMa-1.7.1.jar CLI GAF g=$DCOCC/aeannoresults/final_annotation.gff g=$DCOCC/mdannoresults/final_annotation.gff outdir=$DCOCC/final_out
 #This produces the final annotation in GFF format
 
-#RepeatModeler and RepeatMasking
+#RepeatModeler and RepeatMasking - used the Docker image available here: https://github.com/Dfam-consortium/TETools
 BuildDatabase -name Dcocc final_assembly.fasta #Build the RepeatModeler database
 RepeatModeler -database Dcocc -pa 30 #Run RepeatModeler using 30 cores
 RepeatMasker final_assembly.fasta -lib Dcocc-families.fa -pa 30 #Run RepeatMasker using the RepeatModeler predictions
